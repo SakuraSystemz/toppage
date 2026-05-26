@@ -34,7 +34,7 @@
         margin: 0;
         padding: 20px 0;
         background-color: var(--bg-body);
-        font-family: "ＭＳ 明朝", "Yu Mincho", "Hiragino Mincho ProN", serif;
+        font-family: sans-serif;
         color: var(--text-body);
         line-height: 1.6;
     }
@@ -71,19 +71,19 @@
 
     header h1 {
         margin: 10px 0 5px 0;
-        font-family: "HG明朝B", "Times New Roman", serif;
+        font-family: sans-serif;
         font-size: 25px;
         color: #000;
     }
 
     .header-link {
-        font-family: Arial, sans-serif;
+        font-family: sans-serif;
         font-size: 12px;
         color: #000;
     }
 
     .meta-info {
-        font-family: Arial, sans-serif;
+        font-family: sans-serif;
         font-size: 12px;
         color: #000;
         line-height: 1.5;
@@ -104,7 +104,7 @@
 
     h2 {
         /* インラインスタイル */
-        font-family: Arial, sans-serif;
+        font-family: sans-serif;
         font-size: 15px;
         font-weight: 700;
         margin-top: 20px;
@@ -191,8 +191,8 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="paper">
+  <div class="container">
+   <div class="paper">
 
         <!-- 赤いヘッダーエリア -->
         <header>
@@ -212,9 +212,14 @@
             <p>中学1年からのLinuxユーザー</p>
             <hr style="border: 0; border-top: 1px solid #222222; margin: 30px 0;">
             <h2>リンク</h2>
-            <li><a href="https://sakurasystemz.github.io/blog/">ブログ</a></li>
-            <li><a href="https://careful-vinca-185.notion.site/Raiole-journal-327cd369f14180c4b1aac6b055af12f8">デジタルガーデン</a></li>
-            <li><a href="https://github.com/SakuraSystemz">GitHub</a></li>
+            <ul>
+              <li><h4>Blog</h4></li>
+                <a href="https://sakurasystemz.github.io/blog/"><img src="img/Raiole-Blog.png" alt="ブログ" style="max-width:100%; height:auto;"></a>
+              <li><h4>デジタルガーデン(ジャーナル)</h4></li>
+                <a href="https://careful-vinca-185.notion.site/Raiole-journal-327cd369f14180c4b1aac6b055af12f8"><img src="img/Raiole-journal-top.png" alt="デジタルガーデン" style="max-width:100%; height:auto;"></a>
+              <li><h4>GitHub</h4></li>
+                <a href="https://github.com/SakuraSystemz"><img src="img/github-top.png" alt="GitHub" style="max-width:100%; height:auto;"></a>
+            </ul>
            </div>
 
         <!-- メニュー -->
